@@ -6,17 +6,17 @@ email:
 description: "自此，日月光华，复旦复兮"
 keyword: "Sydney, Sydney Blog, 拾璃的博客"
 url: "http:///Sydney-SL.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      #例如，如果您的博客托管在“host/blog”上，则为“/blog”'
 github_repo: "github.com/Sydney-SL" # you code repository
 
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+# 侧边栏设置
+sidebar: true                           # 无论是否使用侧边栏。
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-BY-gentle.jpg      # 使用绝对 URL，看到它在 `/` 和 `/about/` 中都使用
 
 
 
-# SNS settings
+# 社交网络设置
 RSS: false
 # weibo_username:     
 zhihu_username:     
@@ -27,13 +27,12 @@ jianshu_username:
 
 
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+# 构建设置
+#从 2016 年开始，GitHub Pages 不再支持“pygments”。 使用“胭脂”来突出显示。
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
+anchorjs: true                          # 如果你想自定义锚点。 查看 `post.html` 的第 181 行
 
 
 # Gems
@@ -60,7 +59,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: False    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
   repo: qiubaiying.github.io    #仓库名称
@@ -77,7 +76,7 @@ ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -96,18 +95,18 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
-    }
-]
+#friends: [
+#    {
+#        title: "WY",
+#        href: "http://zhengwuyang.com"
+#    },{
+#        title: "简书·BY",
+#        href: "http://www.jianshu.com/u/e71990ada2fd"
+#    },{
+#        title: "Apple",
+#        href: "https://apple.com"
+#    },{
+#        title: "Apple Developer",
+#        href: "https://developer.apple.com/"
+#    }
+#]
