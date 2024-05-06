@@ -3,7 +3,7 @@ title: 拾璃
 SEOTitle: 拾璃的博客 | Sydney Blog
 header-img: img/post-bg-desk.jpg
 email: 
-description: "自此，日月光华，复旦复兮"
+description: "自此，日月光华，复旦复兮。"
 keyword: "Sydney, Sydney Blog, 拾璃的博客"
 url: "http:///Sydney-SL.github.io"          # your host, for absolute URL
 baseurl: ""      #例如，如果您的博客托管在“host/blog”上，则为“/blog”'
@@ -11,7 +11,7 @@ github_repo: "github.com/Sydney-SL" # you code repository
 
 # 侧边栏设置
 sidebar: true                           # 无论是否使用侧边栏。
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "自此，日月光华，复旦复兮。"
 sidebar-avatar: /img/about-BY-gentle.jpg      # 使用绝对 URL，看到它在 `/` 和 `/about/` 中都使用
 
 
